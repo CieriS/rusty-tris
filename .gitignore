@@ -1,0 +1,68 @@
+# ==========
+# Rust / Cargo
+# ==========
+# Build directory
+/target/
+**/*.rs.bk
+# File di lock (di solito versionare se libreria, ignorare per binari se preferisci rigenerarlo)
+/**/Cargo.lock
+
+# ==========
+# IDE / Editor
+# ==========
+# RustRover (basato su IntelliJ IDEA)
+/.idea/
+/*.iml
+# Altri file IntelliJ
+*.iws
+*.ipr
+
+# Visual Studio Code
+.vscode/
+
+# ==========
+# Sistema operativo
+# ==========
+# macOS
+.DS_Store
+.AppleDouble
+.LSOverride
+# Windows
+Thumbs.db
+ehthumbs.db
+Desktop.ini
+
+# ==========
+# Documentazione generata
+# ==========
+/docs/
+/target/doc/
+
+# ==========
+# Log files
+# ==========
+*.log
+
+# ==========
+# File temporanei e backup
+# ==========
+*~
+*.swp
+*.swo
+
+# ==========
+# Altri artefatti comuni
+# ==========
+# Python virtualenv (se usi script Python)
+/venv/
+/__pycache__/
+/*.py[cod]
+
+# Node modules (se hai frontend)
+/node_modules/
+/dist/
+/build/
+
+# Dipendenze di sistema e backup
+*.bak
+*.tmp

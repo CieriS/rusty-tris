@@ -1,0 +1,14 @@
+[package]
+name = "rusty-tris"
+version = "0.1.0"
+edition = "2024"
+description = "Tris Minigame"
+license = "ISC"
+authors = ["CieriS <sammy.2002@tiscali.it>"]
+homepage = "https://github.com/CieriS/rusty_tris"
+repository = "https://github.com/CieriS/rusty_tris"
+readme = "./README.md"
+keywords = ["tris", "minigame", "fun", "oop", "scalable"]  # Massimo 5 parole chiave
+categories = ["command-line-utilities"]  # Categorie predefinite di crates.io
+
+[dependencies]
