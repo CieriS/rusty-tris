@@ -12,3 +12,4 @@ keywords = ["tris", "minigame", "fun", "oop", "scalable"]  # Massimo 5 parole ch
 categories = ["command-line-utilities"]  # Categorie predefinite di crates.io
 
 [dependencies]
+rand = { version = "0.9.1", features = [] }  # Per stabilire casualmente il giocatore che comincerà
